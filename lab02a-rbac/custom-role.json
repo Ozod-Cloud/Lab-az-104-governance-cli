@@ -1,0 +1,16 @@
+{
+  "Name": "Custom Support Request OJ-31393",
+  "IsCustom": true,
+  "Description": "A custom contributor role for support requests.",
+  "Actions": [
+    "Microsoft.Authorization/*/read",
+    "Microsoft.Resources/subscriptions/resourceGroups/read",
+    "Microsoft.Support/*"
+  ],
+  "NotActions": [
+    "Microsoft.Support/register/action"
+  ],
+  "AssignableScopes": [
+    "/providers/Microsoft.Management/managementGroups/az104-mg1461"
+  ]
+}
